@@ -13,7 +13,7 @@ function setup() {
   // fill(255);
   // text("David", 100, 200);
 
-  var points = font.textToPoints("Jūratė", windowWidth/7, windowHeight/2, windowWidth/4);
+  var points = font.textToPoints("Jūratėlei", windowWidth/7, windowHeight/2, windowWidth/5.5);
 
   for (var i = 0; i < points.length; i++) {
     var pt = points[i];
